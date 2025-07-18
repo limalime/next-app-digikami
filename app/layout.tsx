@@ -19,18 +19,8 @@ const climate = Climate_Crisis({
 const primary = localFont({
   src: [
     {
-      path: "../public/fonts/zabal-regular.otf",
+      path: "../public/fonts/climate.ttf",
       weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/zabal-italic.otf",
-      weight: "400",
-      style: "italic",
-    },
-    {
-      path: "../public/fonts/zabal-bold.otf",
-      weight: "600",
       style: "normal",
     },
   ],
@@ -51,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${climate.variable} ${primary.variable} bg-rose-600 text-base pb-0 text-gray-200 antialiased overflow-hideen`}
+        className={`${inter.variable} ${climate.variable} ${primary.variable} bg-rose-700 text-base pb-0 text-gray-200 antialiased overflow-hideen`}
       >
         
         <div className="flex flex-col h-screen overflow-hidden">

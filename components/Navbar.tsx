@@ -35,7 +35,7 @@
     const toggleMenu = () => setIsOpen(!isOpen);
 
     return (
-      <>
+      <div>
         <motion.nav
           initial={{ y: -100 }}
           animate={{ y: 0 }}
@@ -47,9 +47,9 @@
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
               {/* Logo */}
-              <Link href="/" className="flex items-center space-x-1">
+              <div className="flex items-center space-x-1">
                 <Logo/>
-              </Link>
+              </div>
 
               {/* Desktop Navigation */}
               <div className="hidden md:flex items-center space-x-8">
@@ -58,7 +58,7 @@
                     key={item.name}
                     href={item.href}
                     className={`text-sm font-medium transition-colors hover:text-rose-900 ${
-                      pathname === item.href ? 'text-black' : 'text-white/80'
+                      pathname === item.href ? 'text-rose-800' : 'text-white/80'
                     }`}
                   >
                     {item.name}
@@ -77,7 +77,7 @@
                   <FaSquareXTwitter className="w-5 h-5" />
                 </Link>
                 <Link
-                  href="https://discord.com"
+                  href="https://discord.gg/PQRGPr6fwj"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-rose/80 hover:text-rose-900 transition-colors"
@@ -151,7 +151,7 @@
 
                   <div className="flex items-center space-x-4 mt-8">
                     <Link
-                      href="https://twitter.com"
+                      href="https://x.com/digikaminft"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-white/80 hover:text-rose-900 transition-colors"
@@ -159,7 +159,7 @@
                       <FaSquareXTwitter className="w-6 h-6" />
                     </Link>
                     <Link
-                      href="https://discord.com"
+                      href="https://discord.gg/PQRGPr6fwj"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-white/80 hover:text-rose-900 transition-colors"
@@ -186,6 +186,6 @@
             </motion.div>
           )}
         </AnimatePresence>
-      </>
+      </div>
     );
   }

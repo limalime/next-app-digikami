@@ -10,9 +10,8 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ["var(--font-inter)", "sans-serif"],
-        zabal: ["var(--font-zabal)", "sans-serif"],
-        thuast: ["var(--font-thuast)", "sans-serif"],
-        Climate_Crisis: ["var(--font-climate)", "sans-serif"],
+        primary: ["var(--font-primary)", "sans-serif"],
+        climateCrisis: ["var(--font-climate)", "sans-serif"],
       },
       colors: {
         primary: "#F7374F",
