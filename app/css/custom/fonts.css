@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Zabal";
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+  src: url("fonts/zabal-regular.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Zabal";
+  font-weight: 400;
+  font-style: italic;
+  font-display: fallback;
+  src: url("fonts/zabal-italic.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Zabal";
+  font-weight: 600;
+  font-style: normal;
+  font-display: fallback;
+  src: url("fonts/zabal-bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Thuast";
+  font-weight: 600;
+  font-style: normal;
+  font-display: fallback;
+  src: url("fonts/thuast.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Climate Crisis";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+  font-variation-settings: "YEAR" 1979;
+  src: url("/fonts/climate.ttf") format("ttf");
+}
