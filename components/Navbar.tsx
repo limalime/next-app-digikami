@@ -77,7 +77,7 @@
                   <FaSquareXTwitter className="w-5 h-5" />
                 </Link>
                 <Link
-                  href="https://discord.gg/PQRGPr6fwj"
+                  href="https://dc.gg/digikami"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-rose/80 hover:text-rose-900 transition-colors"
@@ -159,7 +159,7 @@
                       <FaSquareXTwitter className="w-6 h-6" />
                     </Link>
                     <Link
-                      href="https://discord.gg/PQRGPr6fwj"
+                      href="https://dc.gg/digikami"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-white/80 hover:text-rose-900 transition-colors"
