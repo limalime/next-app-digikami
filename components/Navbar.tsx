@@ -14,6 +14,7 @@
     { name: 'About', href: '/about' },
     { name: 'Gallery', href: '/gallery' },
     { name: 'Stake', href: '/stake' },
+    { name: 'Vault', href: '/vault' },
     { name: 'Shop', href: '/shop' },
     { name: 'DAO', href: '/dao' },
   ];
