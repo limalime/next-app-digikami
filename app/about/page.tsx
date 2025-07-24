@@ -37,7 +37,7 @@ export default function AboutPage() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.3 }}
       >
-        Digikami is Community-driven and a brand-centered NFT project on Base built with innovation, creativity, and groundbreaking ideas. Our mission is to bridge the gap between Web2 and Web3 and create a vibrant, inclusive experience within the Base ecosystem.
+        Digikami is Community-driven and a brand-centered NFT project on Base built with innovation, creativity, and groundbreaking ideas. Our mission is to bridge the gap between Web2 and Web3 and create a vibrant, inclusive experience within the HyperEVM ecosystem.
         
         <p>With an in house team for manufacturing of our merchandise we will be working on our phases. Our vision is to cultivate a passionate community of creators and collectors who share a love for art, fashion, and self-expression. These high-quality garments will not only showcase unique art but also create a sense of belonging among.</p>
       </motion.p>
