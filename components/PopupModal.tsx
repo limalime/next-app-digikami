@@ -35,7 +35,7 @@ export default function PopupModal() {
             </button>
 
             <img
-              src="/images/constructor.png"
+              src="/images/digimodal.png"
               alt="Lazy Constructor"
               className="w-44 mx-auto -mt-20 mb-4 pointer-events-none"
             />
