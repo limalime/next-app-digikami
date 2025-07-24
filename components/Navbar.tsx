@@ -90,14 +90,6 @@
                   className="text-rose/80 hover:text-rose-900 transition-colors" >
                   <FaSpotify className="w-5 h-5" />
                 </Link>
-                <Link
-                  href="https://opensea.io/collection/digikami"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-rose/80 hover:text-rose-900 transition-colors"
-                >
-                  <SiOpensea className="w-5 h-5" />
-                </Link>
               </div>
 
               {/* Mobile Menu Button */}
@@ -171,14 +163,6 @@
                       rel="noopener noreferrer"
                       className="text-rose/80 hover:text-rose-900 transition-colors" >
                       <FaSpotify className="w-5 h-5" />
-                    </Link>
-                    <Link
-                      href="https://opensea.io/collection/digikami"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-rose/80 hover:text-rose-900 transition-colors"
-                    >
-                      <SiOpensea className="w-5 h-5" />
                     </Link>
                   </div>
                 </div>
